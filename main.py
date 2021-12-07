@@ -64,14 +64,7 @@ def delete_side(sides, wrong_side):
     return new_sides
 
 if __name__ == '__main__':
-    #max = choose_max([1, 100, 2, 50])
-    """
-    sides = []
-    for i in range(1000000):
-        sides += '0'
-    for i in range(1000000):
-        sides[i] = i+1
-    """
+    #max = choose_max([3, 4, 5, 50, 100])
     sides = make_arrive()
     max = choose_max(sides)
     if max != False:
